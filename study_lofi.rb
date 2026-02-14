@@ -1,4 +1,4 @@
-use_bpm 72
+use_bpm 68
 
 live_loop :texture do
   use_synth :organ_tonewheel
@@ -7,7 +7,7 @@ live_loop :texture do
       release: 1.8,
       amp: 0.4,
       pan: rrand(-0.3, 0.3)
-    sleep rrand(1.2, 2)
+    sleep 1
   end
 end
 
