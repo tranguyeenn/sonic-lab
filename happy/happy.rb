@@ -1,7 +1,7 @@
-use_bpm 100
+use_bpm 120
 
 live_loop :chords do
-  use_synth :piano
+  use_synth :organ_tonewheel
   progression = [
     chord(:c4, :major),
     chord(:g4, :major),
