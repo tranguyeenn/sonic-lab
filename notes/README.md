@@ -31,7 +31,6 @@ The log is not a highlight reel. Document the failures with the same care as the
 | Location | Role |
 |---|---|
 | `tracks/` | More complete pieces — the musical artifact |
-| `studies/` | Focused investigations into one concept or style |
 | `experiments/` | Small, isolated tests — one idea at a time |
 | `notes/` | The thinking behind all of the above |
 

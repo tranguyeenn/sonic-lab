@@ -20,7 +20,7 @@ The repository is organized like a research notebook. Scripts are the primary ar
 
 - Learn music programming through hands-on Sonic Pi scripting
 - Explore computational creativity and generative composition
-- Study rhythm and melody generation from first principles
+- Explore melody generation from first principles
 - Experiment with electronic music structures and genre conventions
 - Document findings, observations, and dead ends along the way
 
@@ -31,7 +31,6 @@ The repository is organized like a research notebook. Scripts are the primary ar
 ```
 sonic-lab/
 ├── experiments/          # Small, focused tests — one idea per script
-├── studies/              # Deeper investigations into a single concept or style
 ├── tracks/               # More complete pieces with multiple layered live loops
 ├── notes/                # Written observations, theory notes, experiment logs
 ├── assets/               # Rendered audio exports and reference material
@@ -40,8 +39,7 @@ sonic-lab/
 
 | Folder | Purpose |
 |---|---|
-| `experiments/` | Quick prototypes: a single rhythm, a synth patch, a randomization technique. Often discarded or folded into larger work. |
-| `studies/` | Sustained explorations — e.g. a genre study, a scale exercise, an ambient texture investigation. |
+| `experiments/` | Quick prototypes: a synth patch, a randomization technique. Often discarded or folded into larger work. |
 | `tracks/` | Multi-layer compositions that attempt a coherent musical idea, even if rough. |
 | `notes/` | Lab journal entries: what was tried, what was learned, parameters worth revisiting. |
 | `assets/` | WAV renders and other audio output from Sonic Pi recording sessions. |
@@ -67,23 +65,6 @@ This is a laboratory, not a product.
 A dark electronic piece at 145 BPM exploring layered live loops: FM bass, hollow pad progressions, blade and prophet synth lines, and ambient texture samples. Investigates minor-key harmonic movement, distortion/LPF chains, and sparse topline melody over a steady kick-and-hat rhythm.
 
 Render: `assets/afterhours.wav`
-
-### Study: Lo-Fi
-`studies/study_lofi/study_lofi.rb`
-
-An ambient lo-fi study at 68 BPM using generative melody selection from a minor pentatonic scale, reverb-heavy synth textures, and subtle sample drops. Focuses on slow harmonic warmth and randomized note timing.
-
-Render: `assets/study_lofi.wav`
-
-### Happy — Generative Melody
-`tracks/happy/happy.rb`
-
-A brighter piece exploring generative melody via `scale(...).choose` and probabilistic octave doubling over a I–V–vi–IV progression. Tests how much structure a random melody needs to feel intentional.
-
-### Rhythm & Sound Design (ongoing)
-`experiments/`
-
-Reserved for isolated rhythm pattern tests, drum programming experiments, and synth/effects investigations that do not yet belong to a full track or study.
 
 ---
 
@@ -129,7 +110,7 @@ Possible areas for continued exploration:
 - Generative systems with evolving state and memory
 - Algorithmic composition beyond simple random selection
 - Procedural soundscapes and long-form ambient structures
-- Genre studies (techno, ambient, lo-fi, minimal) as structured learning paths
+- Genre explorations (techno, ambient, lo-fi, minimal) as structured learning paths
 - Interactive music experiments responding to external input or live parameters
 
 ---

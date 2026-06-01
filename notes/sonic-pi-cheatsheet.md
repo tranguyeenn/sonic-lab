@@ -144,9 +144,9 @@ scale(62, :minor_pentatonic)   # MIDI note number
 
 | Range | Feel | Examples in Lab |
 |---|---|---|
-| 60–80 | Slow, ambient, lo-fi | `study_lofi` at 68 |
+| 60–80 | Slow, ambient, lo-fi | — |
 | 90–110 | Downtempo, hip-hop | — |
-| 120–128 | House, pop energy | `happy` at 120 |
+| 120–128 | House, pop energy | — |
 | 130–150 | Driving, rave, techno | `afterhours` at 145 |
 
 - Halving or doubling BPM changes feel dramatically — try the same pattern at 70 and 140
@@ -200,9 +200,6 @@ play n + 12, release: 0.2, amp: 0.25 if one_in(3)
 ```ruby
 # Dark minor (Afterhours-style)
 [chord(:e3, :minor), chord(:d3, :major), chord(:c3, :major), chord(:b2, :minor)]
-
-# Bright pop (Happy-style)
-[chord(:c4, :major), chord(:g4, :major), chord(:a4, :minor), chord(:f4, :major)]
 ```
 
 ---

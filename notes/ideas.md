@@ -9,23 +9,11 @@ Add freely. Delete freely. Revisit often.
 ## Genres
 
 - [ ] Minimal techno — single element evolving over 8+ minutes, almost nothing else
-- [ ] Lo-fi hip-hop study beat — dusty drums, vinyl crackle sample, jazzy chord voicings
+- [ ] Lo-fi hip-hop beat — dusty drums, vinyl crackle sample, jazzy chord voicings
 - [ ] Dark ambient — no kick, only texture and slow harmonic drift
 - [ ] UK garage — shuffled 2-step rhythm at ~130 BPM
 - [ ] Synthwave — arpeggiated `:prophet` lead, `:dsaw` bass, 80s tempo (~110 BPM)
 - [ ] Drill — sliding 808-style bass using `:fm` with pitch bends
-
----
-
-## Sound Design
-
-- [ ] Brass/trumpet character study — isolate the `:prophet` undertone sound from Afterhours
-- [ ] FM bass parameter sweep — document `depth`, `divisor`, and `cutoff` combinations
-- [ ] Reverb as composition — build a piece where reverb decay *is* the melody
-- [ ] Bitcrushed drums — crush only the hat, leave kick clean
-- [ ] Layered ambient samples — stack `:ambi_*` samples at different rates for evolving texture
-- [ ] Synth comparison — same melody on `:blade`, `:prophet`, `:dsaw`, `:fm` side by side
-
 
 ---
 
@@ -56,10 +44,8 @@ Add freely. Delete freely. Revisit often.
 
 - [ ] **Afterhours v2** — revisit with intentional brass/trumpet lead, sidechain-style ducking
 - [ ] **Morning** — counterpart to Afterhours: bright, major key, same BPM range
-- [ ] **Transit** — rhythmic piece built around `:loop_amen` manipulation
+- [ ] **Transit** — piece built around `:loop_amen` manipulation
 - [ ] **Glass** — entirely from `:ambi_glass_hum` and `:hollow`, no drums
-- [ ] **Happy v2** — generative melody with more structure (phrase lengths, rests)
-- [ ] **Study: Pentatonic** — systematic exploration of major vs. minor pentatonic over one progression
 
 
 ---
