@@ -39,7 +39,7 @@ sonic-lab/
 
 | Folder | Purpose |
 |---|---|
-| `experiments/` | Quick prototypes: a synth patch, a randomization technique. Often discarded or folded into larger work. |
+| `experiments/` | Quick prototypes: a synth patch, a randomization technique. Subfolders (e.g. `edm/`) group related trials; WAV renders can sit next to the script. |
 | `tracks/` | Multi-layer compositions that attempt a coherent musical idea, even if rough. |
 | `notes/` | Lab journal entries: what was tried, what was learned, parameters worth revisiting. |
 | `assets/` | WAV renders and other audio output from Sonic Pi recording sessions. |
@@ -58,6 +58,13 @@ This is a laboratory, not a product.
 ---
 
 ## Featured Experiments
+
+### EDM Trial (in progress)
+`experiments/edm/edm-trial.rb`
+
+A big-room EDM sketch at 128 BPM — kick, hats, prophet chords, FM bass, hollow pad, distorted `:dsaw` lead, and echoed `:blade` arp. Inspired by Martin Garrix’s festival energy; still fixing levels, sync, and arrangement. Treat it as a live experiment, not a finished track.
+
+Render: `experiments/edm/edm-trial.wav`
 
 ### Afterhours
 `tracks/afterhours/afterhours.rb`
@@ -97,7 +104,7 @@ Current areas of investigation:
 1. Install [Sonic Pi](https://sonic-pi.net/) for your operating system.
 2. Open any `.rb` file from this repository in the Sonic Pi editor.
 3. Press **Run**. Live loops continue until you press **Stop**.
-4. To capture audio, use Sonic Pi's built-in recording and save exports to `assets/`.
+4. To capture audio, use Sonic Pi's built-in recording. Save track renders to `assets/`; experiment renders can live beside the script (e.g. `experiments/edm/edm-trial.wav`).
 
 No build step, no dependencies beyond Sonic Pi itself.
 
